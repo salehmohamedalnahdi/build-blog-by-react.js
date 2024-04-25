@@ -1,0 +1,13 @@
+{
+    "blogs": [
+        {
+            "title":"title1","body":"body1","author":"mario",id:1
+        },
+    {
+        "title":"title2","body":"body2","author":"author2",id:2
+    },
+    {
+        "title":"title3","body":"body3","author":"mario",id:3
+    }
+]
+}
