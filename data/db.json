@@ -1,13 +1,22 @@
 {
-    "blogs": [
-        {
-            "title":"title1","body":"body1","author":"mario",id:1
-        },
+  "blogs": [
     {
-        "title":"title2","body":"body2","author":"author2",id:2
+      "title": "hdlshv",
+      "body": "body1",
+      "author": "mario",
+      "id": "1"
     },
     {
-        "title":"title3","body":"body3","author":"mario",id:3
+      "title": "hjslsih",
+      "body": "body2",
+      "author": "author2",
+      "id": "2"
+    },
+    {
+      "id": "1242",
+      "title": "fkk",
+      "body": "h;",
+      "author": "mohammed"
     }
-]
+  ]
 }

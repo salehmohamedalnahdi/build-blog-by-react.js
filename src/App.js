@@ -1,18 +1,36 @@
 import Navbar from './nav.js';
 import Home from './home.js';
-import Home2 from './home2.js';
+import Create from './create.js';
+import NotFound from './notfound.js'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import BlogDetail from './blogsdetail.js';
 
 function App() {
   return (
+    <Router>
     <div className="App">
       <Navbar />
      <div className="content">
-       <Home />
+       <Switch>
+        <Route exact path="/">
+         <Home />
+        </Route>
+        <Route path="/create">
+         <Create />
+        </Route>
+        <Route path="/blogs/:Id">
+         <BlogDetail />
+        </Route>
+        <Route path='*'>
+          <NotFound />
+        </Route>
+       </Switch>
      </div>
      <div className="content"> 
-      <Home2 />
+      
      </div>
     </div>
+    </Router>
   );
 }
 
